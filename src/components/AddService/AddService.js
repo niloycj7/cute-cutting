@@ -16,7 +16,7 @@ const AddService = () => {
         const imgData = new FormData()
         imgData.set("key", "5ba34ded420c00506f3690f403da3ff8")
         imgData.append("image", e.target.files[0])
-        axios.post("http://api.imgbb.com/1/upload", imgData).then((res) => {
+        axios.post("https://api.imgbb.com/1/upload", imgData).then((res) => {
             setImage(res?.data?.data?.display_url)
             setLoading(false)
         })
