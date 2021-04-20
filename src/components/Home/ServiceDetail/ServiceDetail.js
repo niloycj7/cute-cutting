@@ -119,6 +119,7 @@ const ServiceDetail = ({ service, deleteService }) => {
             </ReactModal>
             <img style={{ height: "100px" }} src={service.image} alt="" />
             <h5 className="mt-3 mb-3">{service.name}</h5>
+            <h5 className="mt-1 text-center text-secondary mb-1">{service.price}</h5>
             <p className="text-secondary">{service.description}</p>
             {deleteService === true ? (
                 <button
