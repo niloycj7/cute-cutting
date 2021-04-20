@@ -1,0 +1,19 @@
+.info-card{
+    padding: 0 5px;
+}
+.info-primary{
+    background-color: #6610f2;
+}
+.info-success{
+    background-color: #034703;
+}
+.info-secondary{
+    background-color: #3308ce;
+}
+.info-container{
+    height: 100px;
+    padding: 20px;
+}
+.info-icon{
+    font-size: 3em;
+}

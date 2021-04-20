@@ -1,0 +1,15 @@
+.header-container {
+    height: 800px;
+    position: relative;
+    background-size: cover;
+}
+.header-container::after {
+    height: 605px;
+    content: " ";
+    position: absolute;
+    top: 0;
+    width: 875px;
+    right: 0;
+    background-color: #5b5b70;
+    z-index: -50;
+}
