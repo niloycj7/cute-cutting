@@ -11,8 +11,7 @@ const ManageService = () => {
     return (
         <section id="work" className="services-container mt-5">
             <div className="text-center">
-                <h5 style={{ color: "red" }}>OUR SERVICES</h5>
-                <h2 style={{ color: "green" }}>Services We Provide</h2>
+                <h2 style={{ color: "green" }}>Services You want to delete</h2>
             </div>
             <div className="d-flex justify-content-center">
                 <div className="w-75 row mt-5 pt-5">
