@@ -3,6 +3,7 @@ This project is about a service called "Cute-Cutting', which is a Men's saloon. 
 Project title: Cute Cutting (Online Saloon Service)
 Live site link: https://cute-cutting.web.app/
                 Key features:
+		#
 				•	It’s an online based service which is build with react, mongodb and express.js
 				•	Client can see and take a service from the list inside the site.
 				•	If clients wants to take service/booking from site, he/she must have to login/register.
